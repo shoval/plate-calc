@@ -333,8 +333,8 @@ function StartScreen({ onStart, bestTime, settings, onSettingsChange }) {
           <rect x="33" y="20" width="6" height="60" rx="3" fill="rgba(255,255,255,0.10)" />
           <rect x="43" y="14" width="12" height="72" rx="4" fill="#DC2626" />
           <rect x="45" y="20" width="8" height="60" rx="3" fill="rgba(255,255,255,0.10)" />
-          <rect x="57" y="35" width="8" height="30" rx="2" fill="#a1a1aa" />
-          <rect x="65" y="28" width="14" height="44" rx="3" fill="#a1a1aa" stroke="#52525b" strokeWidth="1" />
+          <rect x="58" y="39" width="5" height="22" rx="2" fill="#a1a1aa" />
+          <rect x="62" y="35" width="7" height="30" rx="3" fill="#a1a1aa" />
 
           {/* Dark backing behind text */}
           <rect x="108" y="8" width="124" height="84" rx="6" fill="#09090b" />
@@ -349,8 +349,8 @@ function StartScreen({ onStart, bestTime, settings, onSettingsChange }) {
           </text>
 
           {/* Right side — mirrored (heaviest near center, lightest outermost) */}
-          <rect x="261" y="28" width="14" height="44" rx="3" fill="#a1a1aa" stroke="#52525b" strokeWidth="1" />
-          <rect x="275" y="35" width="8" height="30" rx="2" fill="#a1a1aa" />
+          <rect x="271" y="35" width="7" height="30" rx="3" fill="#a1a1aa" />
+          <rect x="277" y="39" width="5" height="22" rx="2" fill="#a1a1aa" />
           <rect x="285" y="14" width="12" height="72" rx="4" fill="#DC2626" />
           <rect x="287" y="20" width="8" height="60" rx="3" fill="rgba(255,255,255,0.10)" />
           <rect x="299" y="14" width="10" height="72" rx="4" fill="#2563EB" />
